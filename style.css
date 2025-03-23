@@ -762,7 +762,7 @@ body {
 
     .content .right .image {
         position: relative;
-        width: 200px;
+        width: 135px;
         height: 200px;
         border-radius: 50%;
         overflow: hidden;
@@ -776,6 +776,7 @@ body {
         padding: 0px 3px;
         bottom: -6px;
         border: 3px solid var(--color-black);
+        right : -17px ;
     }
 
     .name span {
