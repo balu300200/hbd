@@ -141,7 +141,7 @@
 <script>
     let datetxt = "30 March 2001";
     let datatxtletter = "Wish you many more happy returns of the day Varshaaa .May this year bring you endless joy and unforgettable memories.I’m so lucky to have you in my life, and I cherish every moment we share.Here’s to more laughter, love, and happiness ahead.Happy Birthday, and may all your dreams come true 💕";
-    let titleLetter = "To you";
+    let titleLetter = "HBD to you";
     let charArrDate = datetxt.split('');
     let charArrDateLetter = datatxtletter.split('');
     let charArrTitle = titleLetter.split('');
@@ -178,7 +178,7 @@
                 if(currentIndexTitle < charArrTitle.length){
                     document.querySelector(".title__letter").textContent += charArrTitle[currentIndexTitle];
                     let i = document.createElement("i");
-                    i.className = "fa-solid fa-heart"
+                    i.className = "fa-solid fa-sparkles"
                     document.querySelector(".title__letter").appendChild(i)
                     currentIndexTitle++;
                 }
